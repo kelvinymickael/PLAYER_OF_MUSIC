@@ -1,0 +1,85 @@
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  width: 26.6rem;
+  border-radius: 0.96rem;
+  gap: 2.9rem;
+  background-color: #2a2141;
+  padding: 3.8rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singerInfos {
+  width: 100%;
+}
+
+.singerInfos strong {
+  font-size: 2.4rem;
+  margin-bottom: 0.96rem;
+  display: inline-block;
+}
+
+.singerInfos p {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.musicControls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.musicControls button {
+  width: 2.8rem;
+  height: 2.8rem;
+  all: unset;
+  cursor: pointer;
+  & i {
+    font-size: 3.2rem;
+  }
+}
+
+.musicTime {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.musicTime progress {
+  width: 100%;
+  margin-bottom: 0.96rem;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.6rem;
+  overflow: hidden;
+  border-radius: 3rem;
+}
+
+.musicTime progress::-webkit-progress-bar {
+  background-color: #d9d9d955;
+}
+
+.musicTime progress::-webkit-progress-value {
+  background-color: #d9d9d9;
+  border-radius: 3rem;
+}
+
+.musicTime .minute {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.musicTime .minute span {
+  color: #c4c4cc;
+}
