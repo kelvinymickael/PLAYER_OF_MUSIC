@@ -51,7 +51,7 @@ function back() {
     textNameNumber--;
   }
 
-  audio.setAttribute("src", `./audio/royOrbisonMusic${counterMusic}.mp3`);
+  audio.setAttribute("src", `./music/royOrbisonMusic${counterMusic}.mp3`);
   playMusic();
   textNameSong.innerText = data[0].musicName[textNameNumber];
 }
@@ -66,7 +66,7 @@ function forward() {
     textNameNumber++;
   }
 
-  audio.setAttribute("src", `./audio/royOrbisonMusic${counterMusic}.mp3`);
+  audio.setAttribute("src", `./music/royOrbisonMusic${counterMusic}.mp3`);
   playMusic();
   textNameSong.innerText = data[0].musicName[textNameNumber];
 }
