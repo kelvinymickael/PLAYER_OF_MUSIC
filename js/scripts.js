@@ -1,5 +1,5 @@
 // Import data:
-import { data } from "./data";
+import { data } from "./data.js";
 
 let isPlaying = false;
 let counterMusic = 1;
