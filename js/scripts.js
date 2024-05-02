@@ -52,8 +52,8 @@ function back() {
   }
 
   audio.setAttribute("src", `./music/royOrbisonMusic${counterMusic}.mp3`);
-  playMusic();
   textNameSong.innerText = data[0].musicName[textNameNumber];
+  playMusic();
 }
 
 // Function to advance the audio:
@@ -67,8 +67,8 @@ function forward() {
   }
 
   audio.setAttribute("src", `./music/royOrbisonMusic${counterMusic}.mp3`);
-  playMusic();
   textNameSong.innerText = data[0].musicName[textNameNumber];
+  playMusic();
 }
 
 // Events:
